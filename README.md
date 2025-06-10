@@ -53,7 +53,7 @@ To run this project locally:
 
     Clone the Repository
 
-
+https://github.com/chandaniptl/PR_Slider
 
     Navigate to the Project
 
@@ -86,6 +86,6 @@ npx live-server
 
 Chandani Patel
 📍 Navsari, Gujarat
-🔗 [Your Portfolio / LinkedIn / GitHub] (Add actual links)
+🔗 https://github.com/chandaniptl/PR_Slider
 📄 License
 
