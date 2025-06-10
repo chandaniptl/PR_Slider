@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/b46d8a5f-540a-4f11-a98e-a48e9ed0f2ec)
+
+
 Under Armour Brand Landing Page
 
 A sleek, responsive front-end website inspired by Under Armour, built using HTML5, CSS, and JavaScript.
