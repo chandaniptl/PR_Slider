@@ -87,5 +87,5 @@ npx live-server
 Chandani Patel
 📍 Navsari, Gujarat
 🔗 https://github.com/chandaniptl/PR_Slider
-📄 License
+
 
