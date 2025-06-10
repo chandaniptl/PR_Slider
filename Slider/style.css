@@ -1,0 +1,149 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #f4f4f4;
+      font-size: 1rem;
+    }
+
+    .ua-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 24px 40px;
+      background: linear-gradient(90deg, #ff512f 0%, #009ffd 100%);
+      color: #fff;
+    }
+
+    .ua-logo img {
+      height: 64px;
+      width: auto;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 24px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.2rem;
+      transition: opacity .3s;
+    }
+
+    nav a:hover {
+      opacity: .8;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, .25);
+      border-radius: 24px;
+      overflow: hidden;
+    }
+
+    .search-box input {
+      border: none;
+      background: transparent;
+      outline: none;
+      color: #fff;
+      width: 200px;
+      padding: 10px 16px;
+      font-size: 1.05rem;
+    }
+
+    .search-box button {
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      font-size: 1.4rem;
+      padding: 0 14px;
+      color: #fff;
+    }
+
+    .btn-signin {
+      border: none;
+      border-radius: 24px;
+      background: #fff;
+      color: #dd2476;
+      font-weight: 600;
+      padding: 12px 28px;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+
+    .btn-signin:hover {
+      background: #009ffd;
+      color: #fff;
+    }
+
+    .slider-container {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      border-radius: 0;
+      overflow: hidden;
+      position: relative;
+      box-shadow: none;
+    }
+
+    .slider,
+    .slide,
+    .slide img {
+      width: 100%;
+      height: 100%;
+    }
+
+  .slider {
+      display: flex;
+      height: 85%;
+      transition: transform 0.5s ease-in-out;
+    } 
+
+   .slide {
+      min-width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    } 
+
+
+    .buttons {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+      padding: 0 16px;
+    }
+
+    .buttons button {
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+
+    .buttons button:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }

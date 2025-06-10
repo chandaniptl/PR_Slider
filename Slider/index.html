@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Under Armour</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8CepVkqGvAUnqqSjFNrDfAEm1vcqkNeGiRNHfSfqZrrfvzZyAhujKIXdnrwWp65CSgXs&usqp=CAU" type="image/x-icon">
+</head>
+
+<body>
+
+  <header class="ua-header">
+    <div class="ua-logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Under_armour_logo.svg" alt="Under Armour logo">
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Outlet</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <form class="search-box" role="search" onsubmit="return false;">
+      <input type="text" placeholder="Search …">
+      <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+
+    <button class="btn-signin">Sign In</button>
+  </header>
+
+  <div class="slider-container">
+    <div class="slider" id="slider">
+      <div class="slide">
+        <img src="https://i.pinimg.com/736x/fe/01/fd/fe01fd7eeb5130fd1762bb67d7b6329d.jpg" alt="Clothes 1">
+      </div>
+      <div class="slide">
+        <img src="https://i.pinimg.com/736x/2d/6e/71/2d6e715fc73ee8dd74836f0aa36e128c.jpg" alt="Clothes 2">
+      </div>
+      <div class="slide">
+        <img src="https://i.pinimg.com/736x/0e/51/06/0e5106e99eceffd252e5ce3eb23e617a.jpg" alt="Clothes 3">
+      </div>
+      <div class="slide">
+        <img src="https://i.pinimg.com/736x/ea/f9/cb/eaf9cb5c03a88e7c524cb9942addb1df.jpg" alt="Clothes 4">
+      </div>
+    </div>
+    <div class="buttons">
+      <button onclick="prevSlide()">❮ </button>
+      <button onclick="nextSlide()"> ❯</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
