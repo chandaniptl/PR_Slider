@@ -6,7 +6,7 @@ Under Armour Brand Landing Page
 A sleek, responsive front-end website inspired by Under Armour, built using HTML5, CSS, and JavaScript.
 📸 Live Demo
 
-👉 Click here to view the website https://verdant-kashata-bbb96c.netlify.app/
+👉 Click here to view the website [https://verdant-kashata-bbb96c.netlify.app/](https://fluffy-faun-984a25.netlify.app/)
 
 📁 Folder Structure
 
